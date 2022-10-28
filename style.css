@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #FBFBFB;
+    background-color: #FBFBFB !important;
 }
 .navbar-brand{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -34,7 +34,7 @@ div ul li a:hover{
     font-size: 15px;
 }
 .fill{
-    margin-left: 100px;
+    margin-left: 100px !important;
 }
 .div50{
     font-size: 50px;
