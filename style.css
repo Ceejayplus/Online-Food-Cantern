@@ -2,6 +2,11 @@ body{
     overflow-x: hidden;
     background-color: #FBFBFB !important;
 }
+.body1{
+    background-image: url(/img/food7.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
 .navbar-brand{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-weight: 700 !important;
