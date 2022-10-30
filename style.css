@@ -105,3 +105,11 @@ div ul li a:hover{
     font-size: 14px;
     font-weight: 800;
 }
+
+
+@media screen and (max-width:520px) {
+    .div57:hover{
+        transform: scale(1.2);
+        transition: all 5s ease;
+    }
+}
