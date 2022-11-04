@@ -45,6 +45,22 @@ div ul li a:hover{
 .fill{
     margin-left: 100px !important;
 }
+.hvv{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30% !important;
+}
+.hvv:hover{
+    background-color: #FF5253 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hvvv{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30% !important;
+}
+.hvvv:hover{
+    background-color: #888888 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .div50{
     font-size: 50px;
     font-weight: 800;
