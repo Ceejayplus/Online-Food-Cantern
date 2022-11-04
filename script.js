@@ -1,6 +1,6 @@
 
 
-
+// The landing page
 const signIn = () => {
     window.location.href = "signin.html"
 }
@@ -12,7 +12,7 @@ const signUp = () => {
 
 
 
-
+// Signup validation
 var allCustomers = [];
 if(localStorage.customerDetails){
     allCustomers = JSON.parse(localStorage.getItem('customerDetails'))
@@ -43,4 +43,24 @@ function goSignUp(){
     localStorage.setItem('customerDetails', JSON.stringify(allCustomers))
 }
 
+// Signin validation
+function logIn(){
+    var myUsername = userName.value
+    var userPassword = passWord.value
+    var allCustomers = JSON.parse(localStorage.getItem("customerDetails"))
+    var found = false
+for (let index = 0; index < allCustomers.length; index++) {
+    if(allCustomers[index].firstName==myUsername && allCustomers[index].password==userPassword){    
+       found = true
+    //    show.innerText = "GOOD"
+        alert("GOOD")
 
+    }
+}
+if(found){
+    window.location.href = "Home.html"
+}else{
+    // show.innerText = "INVALID"
+    alert("INVALID")
+}
+}
