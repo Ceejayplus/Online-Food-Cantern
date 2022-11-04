@@ -1,4 +1,18 @@
 
+
+
+const signIn = () => {
+    window.location.href = "signin.html"
+}
+
+const signUp = () => {
+    window.location.href = "signup.html"
+}
+
+
+
+
+
 var allCustomers = [];
 if(localStorage.customerDetails){
     allCustomers = JSON.parse(localStorage.getItem('customerDetails'))
@@ -30,12 +44,3 @@ function goSignUp(){
 }
 
 
-
-
-const signIn = () => {
-    window.location.href = "signin.html"
-}
-
-const signUp = () => {
-    window.location.href = "signup.html"
-}
