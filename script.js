@@ -15,7 +15,7 @@ function goSignUp(){
     
     
     if((firstName = firstname.value) && (lastName = lastname.value) && (Email = email.value) && (phoneNumber = phonenumber.value) && (password = Password.value)){
-        allCustomers.push (newCustomer)
+        allCustomers.push(newCustomer)
         firstname.value = ""
         lastname.value = ""
         email.value = ""
