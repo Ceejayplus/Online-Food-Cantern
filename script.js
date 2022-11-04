@@ -4,7 +4,7 @@ if(localStorage.customerDetails){
     allCustomers = JSON.parse(localStorage.getItem('customerDetails'))
 }
 
-function signUp(){
+function goSignUp(){
     var newCustomer = {
         firstName : firstname.value,
         lastName : lastname.value,
