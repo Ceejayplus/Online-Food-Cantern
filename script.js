@@ -34,19 +34,9 @@ const createAcc = () => {
     if(regexForPassword.test(userpassword.value)==false){
         validatePassword.innerHTML = "password contain at least 4 letter and 3 digits"
     }
-    
-    else if(
-        firstName = "",
-        lastName = "",
-        Email = "",
-        phonenumber = "",
-        password = ""
-    ){
-        alert("Fill the required space's")
-    }
-    // customerDetails.push(userDetails)
-    // localStorage.setItem('bankDetails', JSON.stringify(customerDetails))
-    // window.location.href = "signin.html"
+    customerDetails.push(userDetails)
+    localStorage.setItem('bankDetails', JSON.stringify(customerDetails))
+    window.location.href = "signin.html"
 }
 
 

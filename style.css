@@ -65,6 +65,7 @@ div ul li a:hover{
     height: 50px;
     position: relative;
     top: -20px !important;
+    outline: none !important;
 }
 .div54{
     position: relative;
