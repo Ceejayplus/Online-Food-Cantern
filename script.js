@@ -1,11 +1,11 @@
 
-var allStudent = [];
-if(localStorage.studentDetails){
-    allStudent = JSON.parse(localStorage.getItem('studentDetails'))
+var allCustomers = [];
+if(localStorage.customerDetails){
+    allCustomers = JSON.parse(localStorage.getItem('customerDetails'))
 }
 
 function signUp(){
-    var newStudent = {
+    var newCustomer = {
         firstName : firstname.value,
         lastName : lastname.value,
         Email : email.value,
@@ -15,18 +15,18 @@ function signUp(){
     
     
     if((firstName = firstname.value) && (lastName = lastname.value) && (Email = email.value) && (phoneNumber = phonenumber.value) && (password = Password.value)){
-        allStudent.push (newStudent)
+        allCustomers.push (newCustomer)
         firstname.value = ""
         lastname.value = ""
         email.value = ""
         phonenumber.value = ""
         Password.value = ""
-        window.location.href = "index  .html"
+        window.location.href = "signin.html"
     }
     else{
         alert("PLEASE FILL THE REQUIRED SPACES")
     }
-    localStorage.setItem('studentDetails', JSON.stringify(allStudent))
+    localStorage.setItem('customerDetails', JSON.stringify(allCustomers))
 }
 
 
@@ -38,30 +38,4 @@ const signIn = () => {
 
 const signUp = () => {
     window.location.href = "signup.html"
-}
-
-
-const logIn = ()  => {
-    var myEmail = email.value
-    var userPassword = passWord.value
-    var customerDetails = JSON.parse(localStorage.getItem('bankDetails'))
-    var detailsChecker = false
-
-    let filteredArray;
-
-    for (let index = 0; index < customerDetails.length; index++){
-        if(customerDetails[index].Email == myEmail && customerDetails[index].password == userPassword){
-            detailsChecker = true
-            filteredArray = customerDetails[index]
-            alert('GOOD 👍')
-            console.log(customerDetails)
-        }
-    }
-    if(detailsChecker){
-        localStorage.setItem('currentUserIndex', JSON.stringify(filteredArray))
-        window.location.href = `dashboard.html`
-    }else{
-        alert(`INVALID EMAIL OR PASSWORD`)
-    }
-    
 }
