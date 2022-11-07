@@ -76,7 +76,7 @@ menu.onclick = () => {
     navbar.classList.toggle('active')
 }
 
-window.onscroll = () => {
+window.onScroll = () => {
     menu.classList.remove('fa-times')
     navbar.classList.remove('active')
     
