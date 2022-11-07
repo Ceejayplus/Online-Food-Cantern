@@ -469,6 +469,11 @@ header .navbar a:hover{
     color: #fff;
     border-radius: .5rem;
     transition: 1s linear;
+    z-index: 1000;
+}
+
+#scroll-top.active{
+    top: calc(100% - 12rem);
 }
 
 
