@@ -449,7 +449,14 @@ header .navbar a:hover{
 }
 
 .footer .credit{
-    
+    padding: 2.5rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: var(--red);
 }
 
 
