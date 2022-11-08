@@ -459,11 +459,18 @@ header .navbar a:hover{
     color: var(--red);
 }
 
+.footer .credits{
+    padding: 2.5rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
 #scroll-top{
     position: fixed;
     top: -120%;
     right: 2rem;
-    padding: .5rem 1.5rem;
+    padding: .5rem 1rem;
     font-size: 4rem;
     background: var(--red);
     color: #fff;
