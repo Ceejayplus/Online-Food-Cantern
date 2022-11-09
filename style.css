@@ -147,7 +147,7 @@ div ul li a:hover{
 
 @media (max-width:450px) {
     body{
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         overflow-x: hidden;
     }
     .body2{
@@ -185,7 +185,7 @@ div ul li a:hover{
 
 @media (max-width:768px) {
     .body{
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         overflow-x: hidden;
     }
     .dyy{
@@ -193,7 +193,6 @@ div ul li a:hover{
         left: 20px;
     }
     .dev{
-        /* background-color: #F4F5FA; */
         border-radius: 10px;
         height: 200px;
         width: 100% !important;
