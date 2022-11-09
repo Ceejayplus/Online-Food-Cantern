@@ -1,5 +1,5 @@
 body{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
     background-color: #FBFBFB !important;
 }
@@ -125,12 +125,14 @@ div ul li a:hover{
 }
 .div64{
     position: relative;
+    font-size: 1.5rem;
 }
 .div68{
     position: relative;
     top: -20px;
     right: 150px;
     background-color: #F4F5FA;
+    height: 8rem;
 }
 .div74{
     font-size: 13px;
@@ -150,13 +152,61 @@ div ul li a:hover{
         background-repeat: no-repeat;
         height: 100vh;
     }
-}
-
-@media (max-width:450px) {
     .body1{
         background-image: url(/img/food7.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+    }
+    .div54{
+        position: relative;
+        z-index: 1;
+        right: 0px;
+        top: -20px;
+        background-color: #FF5253 !important;
+        width: 100px;
+    }
+    .div68{
+        position: relative;
+        top: -20px;
+        right: 10px;
+        background-color: #F4F5FA;
+    }
+    .div61{
+        background-color: #F4F5FA;
+        border-radius: 10px;
+        height: 170px;
+    }
+}
+
+@media (max-width:768px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .dyy{
+        position: relative;
+        left: 20px;
+    }
+    .dev{
+        /* background-color: #F4F5FA; */
+        border-radius: 10px;
+        height: 200px;
+        width: 100% !important;
+    }
+    .div68{
+        position: relative;
+        top: -30px;
+        right: 15px;
+        background-color: #F4F5FA;
+        width: 15rem !important;
+        height: 10rem;
+    }
+    .div64{
+        position: relative;
+        font-size: 1.2rem !important;
+    }
+    .div70{
+        height: 30px !important;
+        width: 30px !important;
     }
 }
