@@ -147,7 +147,6 @@ div ul li a:hover{
 
 @media (max-width:450px) {
     body{
-        overflow-y: scroll !important;
         overflow-x: hidden;
     }
     .body2{
@@ -185,7 +184,6 @@ div ul li a:hover{
 
 @media (max-width:768px) {
     .body{
-        overflow-y: scroll !important;
         overflow-x: hidden;
     }
     .dyy{
