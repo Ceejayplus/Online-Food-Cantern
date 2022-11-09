@@ -146,16 +146,9 @@ div ul li a:hover{
 
 @media (max-width:450px) {
     .body2{
-        background-image: url(/img/food8.jpg);
+        background-image: url(/img/food6.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
-    }
-}
-
-@media(max-width:768px){
-    .body2{
-        background-image: url(/img/food8.jpg);
-        background-size: cover;
     }
 }
