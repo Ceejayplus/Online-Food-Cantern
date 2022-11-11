@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: #FBFBFB !important;
 }
 .body1{
@@ -129,7 +130,7 @@ div ul li a:hover{
 .div68{
     position: relative;
     top: -20px;
-    right: 150px;
+    /* right: 150px; */
     background-color: #F4F5FA;
     height: 8rem;
 }
@@ -142,11 +143,20 @@ div ul li a:hover{
     font-size: 14px;
     font-weight: 800;
 }
+.ddy{
+    position: relative;
+    right: 100px;
+}
+.dyy{
+    position: relative;
+    right: 10px;
+}
 
 
 @media (max-width:450px) {
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+        overflow-y: scroll;
     }
     .body2{
         background-image: url(/img/food6.jpg);
@@ -181,7 +191,6 @@ div ul li a:hover{
         width: 100%;
     }
     .div64{
-        /* position: relative; */
         font-size: 20px !important;
     }
     .dyy{
@@ -190,13 +199,14 @@ div ul li a:hover{
     }
 }
 
-@media (max-width:768px) {
-    .body{
-        overflow-x: hidden;
+@media (max-width:770px) {
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll;
     }
     .dyy{
         position: relative;
-        left: 20px;
+        left: 10px;
     }
     .dev{
         border-radius: 10px;
