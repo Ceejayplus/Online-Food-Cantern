@@ -234,6 +234,7 @@ header .navbar a:hover{
     border-radius: .5rem;
     text-align: center;
     flex: 1 1 30rem;
+    position: relative;
 }
 
 .popular .box-container .box img{
@@ -246,7 +247,7 @@ header .navbar a:hover{
 .popular .box-container .box .price{
     position: absolute;
     top: 3rem; left: 3rem;
-    background: var(--red) !important;
+    background: var(--red);
     color: #fff;
     font-size: 2rem;
     padding: .5rem 1rem;
@@ -514,7 +515,7 @@ header .navbar a:hover{
 
 
 
-
+/* media queries */
 
 @media(max-width:991px){
     html{
