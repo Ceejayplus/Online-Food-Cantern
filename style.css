@@ -170,6 +170,12 @@ div ul li a:hover{
         background-repeat: no-repeat;
         height: 100vh;
     }
+    ::placeholder{
+        color: #888888;
+        opacity:0.5;
+        margin-left: 10px;
+        font-size: 10px;
+    }
     .div54{
         position: relative;
         z-index: 1;
@@ -195,7 +201,7 @@ div ul li a:hover{
     }
     .dyy{
         position: relative;
-        left: 150px !important;
+        left: 135px !important;
     }
 }
 
