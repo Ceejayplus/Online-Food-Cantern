@@ -153,6 +153,32 @@ div ul li a:hover{
 }
 
 
+@media (max-width:360px) {
+    body{
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .navbar-brand{
+        width: 100%;
+        font-size: 10px !important;
+    }
+    .dev{
+        background-color: #F4F5FA;
+        border-radius: 10px;
+        height: 900px !important;
+        width: 100%;
+    }
+    .ddy{
+        position: relative;
+        right: 100px;
+        height: 100px;
+    }
+    .dyy{
+        position: relative;
+        left: 20px !important;
+    }
+}
+
 @media (max-width:450px) {
     body{
         overflow-x: hidden !important;
