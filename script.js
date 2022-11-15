@@ -43,6 +43,10 @@ function goSignUp(){
     localStorage.setItem('customerDetails', JSON.stringify(allCustomers))
 }
 
+function goLogIn() {
+    window.location.href= "signin.html"
+}
+
 // Signin validation
 function logIn(){
     var myUsername = userName.value

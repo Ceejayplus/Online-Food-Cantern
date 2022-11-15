@@ -210,6 +210,18 @@ div ul li a:hover{
         overflow-x: hidden !important;
         overflow-y: scroll;
     }
+    .body1{
+        background-image: url(/img/food7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .body2{
+        background-image: url(/img/food8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
     .dyy{
         position: relative;
         left: 10px;
