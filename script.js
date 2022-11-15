@@ -47,6 +47,10 @@ function goLogIn() {
     window.location.href= "signin.html"
 }
 
+function goGoSignUP() {
+    window.location.href ="signup.html"
+}
+
 // Signin validation
 function logIn(){
     var myUsername = userName.value
