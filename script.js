@@ -106,3 +106,21 @@ function fadeOut(){
 }
 
 window.onload = fadeOut();
+
+// const price = document.querySelector(".price").value
+// const itemImg = document.querySelector(".item-img").value
+// const itemTitle = document.querySelector("item-title").value
+
+// const cart = []
+// function addToCart(item){
+// cart.push(item)
+// }
+
+
+// async function ade(){
+//     const url = "https://jsonplaceholder.typicode.com/photos"
+//    const data = await fetch(url)
+//    const res = await data.json()
+//    console.log(res)
+// }
+// ade()
