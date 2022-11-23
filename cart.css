@@ -64,3 +64,30 @@ body{
 #cart table tbody td{
     font-size: 13px;
 }
+
+.cart-total{
+    position: relative;
+    left: 750px;
+    border: 1px solid #e2e9e1 10px;
+    border-left: none;
+    border-left: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cart-total-price{
+    position: relative;
+    left: 20px;
+}
+.btn-purchase{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    left: 500px;
+    margin-top: 20px;
+}

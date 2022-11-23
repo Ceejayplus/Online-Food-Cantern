@@ -15,6 +15,9 @@
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="Home.css">
+
+    <!-- ADD To Cart JS file -->
+    <script src="cart.js" async></script>
 </head>
 <body>
 
@@ -30,7 +33,7 @@
             <a href="#popular">popular</a>
             <a href="#gallery">gallery</a>
             <a href="#review">review</a>
-            <a href="#order">order</a>
+            <a href="cart.html">order</a>
             <!-- <a href="cart.html"><i class="fa-solid fa-cart-shopping"><div id="badge"> 0 </div></i> </a> -->
         </nav>
     </header>
@@ -112,16 +115,16 @@
 
     
     <!-- Popular section` -->
-    <section class="popular" id="popular">
+    <section class="popular" id="">
         
         <h1 class="heading"> most <span>popular</span> foods </h1>
     
         <div class="box-container">
     
             <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="img/p-1.jpg" alt="">
-                <h3>tasty burger</h3>
+                <span class="price"> $15.99 </span>
+                <img class="shop-item-image" src="img/p-1.jpg" alt="">
+                <h3 class="shop-item-title">tasty burger</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -129,12 +132,12 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
             <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="img/p-2.jpg" alt="">
-                <h3>tasty cakes</h3>
+                <span class="price"> $20.99 </span>
+                <img class="shop-item-image" src="img/p-2.jpg" alt="">
+                <h3 class="shop-item-title">tasty cakes</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -142,12 +145,12 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
             <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="img/p-3.jpg" alt="">
-                <h3>tasty sweets</h3>
+                <span class="price"> $13.99 </span>
+                <img class="shop-item-image" src="img/p-3.jpg" alt="">
+                <h3 class="shop-item-title">tasty sweets</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -155,12 +158,12 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
             <div class="box">
-                <span class="price"> $5 </span>
-                <img src="img/p-4.jpg" alt="" class="item-img">
-                <h3 class="item-title">tasty cupcakes</h3>
+                <span class="price"> $7.99 </span>
+                <img class="shop-item-image" src="img/p-4.jpg" alt="" class="item-img">
+                <h3 class="shop-item-title">tasty cupcakes</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -168,12 +171,12 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn" onclick="addToCart()">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
             <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="img/p-5.jpg" alt="">
-                <h3>cold drinks</h3>
+                <span class="price"> $6.99 </span>
+                <img class="shop-item-image" src="img/p-5.jpg" alt="">
+                <h3 class="shop-item-title">cold drinks</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -181,12 +184,12 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
             <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="img/p-6.jpg" alt="">
-                <h3>cold ice-cream</h3>
+                <span class="price"> $5.99 </span>
+                <img class="shop-item-image" src="img/p-6.jpg" alt="">
+                <h3 class="shop-item-title">cold ice-cream</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -194,7 +197,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <a href="#" class="btn">order now</a>
+                <button class="btn shop-item-button">ADD To Cart</button>
             </div>
     
         </div>

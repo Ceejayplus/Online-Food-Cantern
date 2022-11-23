@@ -47,37 +47,44 @@
                     <td>Product</td>
                     <td>Price</td>
                     <td>Quantity</td>
-                    <td>Subtotal</td>
+                    <!-- <td>Subtotal</td> -->
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="cart-row">
                  <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><a href="#" class="btn-danger"><i class="far fa-times-circle"></i></a></td>
                     <td><img src="img/p-2.jpg" alt=""></td>
                     <td>Tasty Cakes</td>
-                    <td>$20</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$20</td>
+                    <td class="cart-price">$20.99</td>
+                    <td><input class="cart-quantity-input" type="number" value="2"></td>
+                    <!-- <td>$20</td> -->
                  </tr>
                  <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><a href="#" class="btn-danger"><i class="far fa-times-circle"></i></a></td>
                     <td><img src="img/p-1.jpg" alt=""></td>
                     <td>Tasty Burger</td>
-                    <td>$15</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$15</td>
+                    <td class="cart-price">$15.99</td>
+                    <td><input class="cart-quantity-input" type="number" value="1"></td>
+                    <!-- <td>$15</td> -->
                  </tr>
-                 <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                 <!-- <tr>
+                    <td><a href="#" class="btn-danger"><i class="far fa-times-circle"></i></a></td>
                     <td><img src="img/p-5.jpg" alt=""></td>
                     <td>Cold Drinks</td>
+                    <td class="cart-price">$10</td>
+                    <td class="cart-quantity-input"><input type="number" value="1"></td>
                     <td>$10</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$10</td>
-                 </tr>
+                 </tr> -->
             </tbody>
         </table>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$36.98</span>
+        </div>
+
+        <button class="btn-purchase" type="button">PURCHASE</button>
     </section>
+    <br><br><br><br><br>
 
 
     <section class="footer">
