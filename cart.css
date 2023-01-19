@@ -91,3 +91,9 @@ body{
     left: 500px;
     margin-top: 20px;
 }
+
+/* The next.html page */
+.fact {
+    font-weight: 900;
+    font-size: xx-large;
+}
