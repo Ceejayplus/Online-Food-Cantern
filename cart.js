@@ -94,3 +94,16 @@ function updateCartTotal(){
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
+
+// For purchase with Cash
+
+function CashPurchase(){
+    var deliveryAddress = address.value
+    if(deliveryAddress == ""){
+        alert("Please input the address for the delivery!")
+    }
+    else{
+        alert("Thanks for your Patronage!")
+        window.location.href = "Home.html"
+    }
+}
