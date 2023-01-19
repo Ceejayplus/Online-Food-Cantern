@@ -31,6 +31,7 @@ function purchasClicked(){
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('section-p1')[0]
     while(cartItems.hasChildNodes()) {
+        window.location.href = ""
         // cartItems.removeChild(cartItems.firstChild)
     }
 }
