@@ -102,3 +102,52 @@ body{
 ::placeholder {
     font-size: 15px;
 }
+
+/* For Payment with Card */
+.pay {
+    background-color: #ECF1F7;
+    width: 500px;
+    margin: auto !important;
+    position: relative;
+    right: 20px;
+}
+
+.payCard {
+    width: 700px;
+    height: 470px;
+}
+
+.pdetails {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mastercard {
+    position: relative;
+    right: 50px;
+}
+
+.discover {
+    position: relative;
+    right: 20px;
+}
+
+.paypal {
+    position: relative;
+    left: 20px;
+}
+
+.americaexpress {
+    position: relative;
+    left: 50px;
+}
+
+.div59 {
+    border: 1px solid;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    bottom: 325px;
+    height: 250px;
+}
