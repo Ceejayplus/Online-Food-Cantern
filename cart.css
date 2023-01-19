@@ -103,7 +103,17 @@ body{
     font-size: 15px;
 }
 
+.backCard {
+    background-image: url(img/bankfav.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
 /* For Payment with Card */
+.backCash {
+    background-image: url(img/banksystem1.jpg);
+    background-size: cover;
+}
 .pay {
     background-color: #ECF1F7;
     width: 500px;
