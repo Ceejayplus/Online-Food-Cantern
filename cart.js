@@ -95,12 +95,28 @@ function updateCartTotal(){
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
 
-// For purchase with Cash
+// For Payment with Cash
 
 function CashPurchase(){
     var deliveryAddress = address.value
     if(deliveryAddress == ""){
         alert("Please input the address for the delivery!")
+    }
+    else{
+        alert("Thanks for your Patronage!")
+        window.location.href = "Home.html"
+    }
+}
+
+// For Payment with Card
+
+function confirmPayment(){
+    var cardNumbers = Number(cardNumber.value)
+    var cardExpiringDate = Number(expiringDate.value)
+    var cardCvCode = Number(cvCode.value)
+    var cardOwnerName = cardOwner.value
+    if(cardNumbers == "", cardExpiringDate == "", cardOwnerName == "", cardCvCode == ""){
+        alert("Please input your card details")
     }
     else{
         alert("Thanks for your Patronage!")

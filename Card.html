@@ -56,14 +56,32 @@
                 <img src="img/Americaexpress.PNG" alt="America Express" class="americaexpress">
             </div>
         </section>
-        <section class="div59">
-            <div class="pay bg-light">
+        <section class="div59 border">
+            <div class="ms-auto">
+                <p class="cardNo">
+                    <label for="cardNumber" class="fw-bold fs-2">CARD NUMBER</label><br>
+                    <input class="m-auto cardInput border" type="tel" name="cardNumber" id="cardNumber" placeholder="Valid Card Number" required>
+                </p>
+                <p class="expiringDate">
+                    <label for="expiringDate" class="fw-bold fs-2">EXPIRATION DATE</label>
+                    <input type="month" name="expiringDate" id="expiringDate" class="border cardExpire" required>
+                    <label for="cvCode" class="fs-2 fw-bold cvCodelabel"> CV CODE</label>
+                    <input type="tel" name="cvCode" id="cvCode" placeholder="CVC" pattern="[0-9]{3}" class="cvCode border" required>
+                </p>
+                <p>
+                    <label for="cardOwner" class="fs-2 fw-bold cardOwnerlabel"> CARD OWNER</label>
+                    <input type="text" name="cardOwner" id="cardOwner" placeholder="Card Owner Name" class="border cardOwner" required >
+                </p>
+            </div>
 
+            <hr class="div77">
+
+            <div>
+                <button class="btn-success fs-2 p-1 w-100 rounded-3" type="submit" onclick="confirmPayment()">Confirm Payment</button>
             </div>
         </section>
     </article>
     
-    <br><br><br>
 
 
     <section class="footer">

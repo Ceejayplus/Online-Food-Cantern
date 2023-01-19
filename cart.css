@@ -144,10 +144,71 @@ body{
 }
 
 .div59 {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 500px;
     margin: auto;
     position: relative;
     bottom: 325px;
-    height: 250px;
+    height: 300px;
+}
+.cardNo {
+    position: relative;
+    right: 150px;
+}
+
+.cardInput {
+    position: relative;
+    left: 55px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.expiringDate {
+    position: relative;
+    right: 137px;
+}
+
+.cardExpire {
+    position: relative;
+    left: 15px;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.cvCodelabel {
+    position: relative;
+    left: 300px;
+    bottom: 55px;
+}
+
+.cvCode {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.cardOwnerlabel {
+    position: relative;
+    right: 155px;
+    bottom: 35px;
+}
+
+.cardOwner {
+    position: relative;
+    right: 95px;
+    bottom: 35px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+.div77 {
+    width: 500px;
+    position: relative;
+    right: 122px;
+    /* margin: auto; */
 }
