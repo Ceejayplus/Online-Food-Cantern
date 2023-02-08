@@ -12,7 +12,7 @@ const signUp = () => {
 
 
 
-// Signup validation
+// Signup validations
 var allCustomers = [];
 if(localStorage.customerDetails){
     allCustomers = JSON.parse(localStorage.getItem('customerDetails'))
